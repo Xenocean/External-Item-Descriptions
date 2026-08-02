@@ -380,7 +380,7 @@ local repCollectibles={
 	[681] = {"681", "Lil Portal", "Deals contact damage and flies forward#Consumes pickups in its path#Each pickup consumed increases its size, damage, and spawns a blue fly#Consuming four pickups spawns a portal to an unexplored room"}, -- Lil Portal
 	[682] = {"682", "Worm Friend", "Sometimes bursts out of the ground and grabs an enemy#Grabbed enemies take 8 damage per second, are slowed and cannot move"}, -- Worm Friend
 	[683] = {"683", "Bone Spurs", "Enemies spawn bone shards on death#Bones block projectiles and deal contact damage"}, -- Bone Spurs
-	[684] = {"684", "Hungry Soul", "Killing an enemy has a chance to spawn a ghost#Ghosts chase enemies, deal contact damage and explode after 5 seconds#Isaac doesn't take damage from the explosion"}, -- Hungry Soul
+	[684] = {"684", "Hungry Soul", "Killing an enemy has a 33% chance to spawn a ghost#Ghosts chase enemies, deal contact damage and explode after 5 seconds#Isaac doesn't take damage from the explosion"}, -- Hungry Soul
 	[685] = {"685", "Jar of Wisps", "Spawns a random wisp#Spawns one additional wisp with each use, up to 12"}, -- Jar of Wisps
 	[686] = {"686", "Soul Locket", "↑ Picking up {{SoulHeart}} Soul Hearts grants random permanent stat ups#{{SoulHeart}} Spawns a Soul Heart"}, -- Soul Locket
 	[687] = {"687", "Friend Finder", "{{Friendly}} Spawns a random friendly monster that mimics Isaac's movements and attacks"}, -- Friend Finder
@@ -1000,6 +1000,10 @@ EID.descriptions[languageCode].goldenTrinketEffects = {
 	[88] = { "Prevents Quality {{Quality0}} items from spawning" },
 	-- Gilded Key (Golden version only): it doesn't give a key. bug that might get fixed (maybe it'll give a Golden Key?)
 	[159] = { "{{GoldenChest}} Replaces all chests (except Old/Mega) with golden chests#{{GoldenChest}} Golden chests can contain extra cards, pills or trinkets" },
+	-- Lucky Sack
+	[160] = {"a sack", "2{{CR}} sacks", "3{{CR}} sacks"},
+	-- Lil Clot
+	[176] = {"a blood clot", "2{{CR}} blood clots", "3{{CR}} blood clots"},
 	-- The Twins
 	[183] = { "May copy/grant 2 familiars", "May copy/grant 2 familiars", "May copy/grant 3 familiars" },
 }

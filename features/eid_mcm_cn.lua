@@ -9,7 +9,8 @@ if MCMLoaded and MCM and MCM.i18n == "Chinese" then
         -- find and replace menu texts
         {"External Item Descriptions", "外置物品描述"},
         {"Version ", "版本号 "},
-        {"%(rep%)","(忏悔)"},
+		{"ab","胎衣"},	
+        {"rep","忏悔"},
         {"by Wofsauge","作者 Wofsauge"},
 		{"~~~~~ CURRENTLY HIDDEN! ~~~~~","~~~~~~~~~当前已隐藏!~~~~~~~~"},
 		{"~~~~~~~ ","~~~~~~~~~按"},
@@ -30,7 +31,7 @@ if MCMLoaded and MCM and MCM.i18n == "Chinese" then
         {"Czech","捷克语"},
         {"German","德语"},
         {"%(detailed%)","(详细)"},
-        {"%(AB+%)","(胎衣+)"},
+        {"AB","胎衣"},
         {"French","法语"},
         {"Italian","意大利语"},
         {"Japanese","日语"},

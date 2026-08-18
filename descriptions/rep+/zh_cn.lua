@@ -225,8 +225,8 @@ local goldenTrinketEffects = {
 	-- Walnut (find replace):
 	[108] = {
 		"1{{UnknownHeart}}随机心, 1{{Coin}}随机硬币, 1{{Key}}随机钥匙和1{{Trinket}}随机饰品",
-		"2{{CR}}{{UnknownHeart}}随机心, {{ColorGold}}2{{CR}}{{Coin}}随机硬币, {{ColorGold}}2{{CR}}{{Key}}随机钥匙和{{ColorGold}}2{{CR}} {{Trinket}}随机饰品",
-		"3{{CR}}{{UnknownHeart}}随机心, {{ColorGold}}3{{CR}}{{Coin}}随机硬币, {{ColorGold}}3{{CR}}{{Key}}随机钥匙和{{ColorGold}}3{{CR}} {{Trinket}}随机饰品",
+		"2{{CR}}{{UnknownHeart}}随机心, {{ColorGold}}2{{CR}}{{Coin}}随机硬币, {{ColorGold}}2{{CR}}{{Key}}随机钥匙和{{ColorGold}}2{{CR}}{{Trinket}}随机饰品",
+		"3{{CR}}{{UnknownHeart}}随机心, {{ColorGold}}3{{CR}}{{Coin}}随机硬币, {{ColorGold}}3{{CR}}{{Key}}随机钥匙和{{ColorGold}}3{{CR}}{{Trinket}}随机饰品",
 	},
 	-- Duct Tape (append):
 	[109] = {"按下丢弃键会让跟班在不同的阵型间切换"},
@@ -340,7 +340,7 @@ local goldenTrinketEffects = {
 	-- Beth’s Essence (append):
 	[182] = {"50%概率进入天使房获得的魂火变为特殊魂火#{{ColorGold}}乞丐会生成特殊魂火", "100%概率进入天使房获得的魂火变为特殊魂火#{{ColorGold}}乞丐会生成特殊魂火"},
 	-- Adoption Papers (append):
-	[184] = {"跟班永远打折", "跟班永远打折#{{Card92}} {{ColorGold}}商店会出售\"莉莉丝魂石\""},
+	[184] = {"跟班永远打折", "跟班永远打折#{{Card92}} {{ColorGold}}商店会出售\"莉莉丝的魂石\""},
 	-- Sigil of Baphomet (find replace):
 	[189] = {"1秒", "1.5{{CR}}秒", "2{{CR}}秒",  "5秒", "7.5{{CR}}秒", "10{{CR}}秒"},
 }

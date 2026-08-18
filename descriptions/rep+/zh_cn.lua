@@ -224,9 +224,9 @@ local goldenTrinketEffects = {
 	},
 	-- Walnut (find replace):
 	[108] = {
-		"1{{UnknownHeart}}随机心, 1{{Coin}}硬币, 1{{Key}}钥匙和1{{Trinket}}随机饰品",
-		"2{{CR}}{{UnknownHeart}}随机心, {{ColorGold}}2{{CR}}{{Coin}}硬币, {{ColorGold}}2{{CR}}{{Key}}钥匙和{{ColorGold}}2{{CR}} {{Trinket}}随机饰品",
-		"3{{CR}}{{UnknownHeart}}随机心, {{ColorGold}}3{{CR}}{{Coin}}硬币, {{ColorGold}}3{{CR}}{{Key}}钥匙和{{ColorGold}}3{{CR}} {{Trinket}}随机饰品",
+		"1{{UnknownHeart}}随机心, 1{{Coin}}随机硬币, 1{{Key}}随机钥匙和1{{Trinket}}随机饰品",
+		"2{{CR}}{{UnknownHeart}}随机心, {{ColorGold}}2{{CR}}{{Coin}}随机硬币, {{ColorGold}}2{{CR}}{{Key}}随机钥匙和{{ColorGold}}2{{CR}} {{Trinket}}随机饰品",
+		"3{{CR}}{{UnknownHeart}}随机心, {{ColorGold}}3{{CR}}{{Coin}}随机硬币, {{ColorGold}}3{{CR}}{{Key}}随机钥匙和{{ColorGold}}3{{CR}} {{Trinket}}随机饰品",
 	},
 	-- Duct Tape (append):
 	[109] = {"按下丢弃键会让跟班在不同的阵型间切换"},
